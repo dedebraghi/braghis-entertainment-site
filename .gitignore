@@ -1,0 +1,36 @@
+# ============================================
+# .gitignore - Braghis Entertainment Studio
+# ============================================
+
+# --- File sensibili (MAI committare) ---
+.env
+credentials.json
+token.json
+
+# --- File temporanei/intermedi ---
+.tmp/
+!.tmp/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini

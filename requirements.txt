@@ -1,0 +1,15 @@
+# ============================================
+# Dipendenze Python - Braghis Entertainment Studio
+# ============================================
+
+# Gestione variabili d'ambiente
+python-dotenv>=1.0.0
+
+# Google API
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+
+# Utility
+requests>=2.31.0
