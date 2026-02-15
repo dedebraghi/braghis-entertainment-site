@@ -196,6 +196,34 @@
     </div>
   </section>
 
+  <!-- ========== §5.4b NEWSLETTER ========== -->
+  <section class="newsletter" id="newsletter">
+    <div class="container newsletter-inner fade-in">
+      <span class="section-label">Stay Updated</span>
+      <h2>Join the Mailing List</h2>
+      <p class="newsletter-desc">Be the first to know about development updates, behind-the-scenes content, and release
+        announcements.</p>
+      <form id="newsletter-form" class="newsletter-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4e688886-fd9c-4a29-9295-fbe8426f128f">
+        <input type="hidden" name="subject" value="New Newsletter Subscriber">
+        <input type="hidden" name="from_name" value="Newsletter Signup">
+        <div class="newsletter-input-group">
+          <input type="email" name="email" id="newsletter-email" placeholder="Enter your email" required
+            autocomplete="email">
+          <button type="submit" class="btn-studio" id="newsletter-submit">
+            Subscribe
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div id="newsletter-feedback" class="newsletter-feedback"></div>
+    </div>
+  </section>
+
   <!-- ========== §5.5 FOOTER ========== -->
   <footer class="site-footer" id="footer">
     <div class="container footer-inner">
